@@ -6,6 +6,9 @@ The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) 
 
 **Jiaqi Chen**, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong.
 
+
+
+
 <p align="center">
   <img src="figs/intro.png" alt="framework">
 </p>
@@ -16,17 +19,17 @@ If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mai
 ## Environment 🔧
 
 Please install these requirements:
-```setup
+```bash
 pip install -r requirements.txt
 ```
-For inference, please also install vllm (we use version 0.6.6).
+For inference, please also install `vllm` (we use version 0.6.6).
 
 
 
 ## Data 📚
-Please find our training data and evaluation dataset [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/EkB9OYBHr_tGmGeJ5xxTncgBXFnln9nPP4jmCKNcQSSDIQ?e=oF7b6g).
+Please find our training data and evaluation datasets [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/EkB9OYBHr_tGmGeJ5xxTncgBXFnln9nPP4jmCKNcQSSDIQ?e=oF7b6g).
 
-`data_round0_sft_critic.json` is SFT data and `data_round2_rl_critic.json` is for round 2 RFT.
+`data_round0_sft_critic.json` is SFT data and `data_round2_rl_critic.json` is for round 2 RL.
 
 The three files in `data/eval` correspond to the datasets used for evaluating the critic.
 
@@ -37,15 +40,15 @@ We have uploaded the trained [SFT critic model](https://huggingface.co/judge/SPC
 ## Reinforcement Finetuning 🔥
 You can use the data we provided to update the SFT critic model to the round 2 critic model. 
 
-Please modify the data and model paths in the script as needed before running it:
-```RL
+Please modify the data and model paths in the script as needed before running:
+```bash
 bash scripts/rl_critic.sh
 ```
 
 ## Evaluation 🚀
-After obtaining a critic model, please set the paths to the dataset and the checkpoint in the following script to perform evaluation.
+After obtaining a critic model, please set the dataset and checkpoint paths in the following script to perform evaluation.
 
-```eval
+```bash
 python3 eval/infer_batch.py
 ```
 
