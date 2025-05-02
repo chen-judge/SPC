@@ -6,6 +6,10 @@ The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) 
 
 **Jiaqi Chen**, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong.
 
+<p align="center">
+  <img src="figs/intro.png" alt="framework">
+</p>
+
 If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
 
 
