@@ -10,7 +10,7 @@ The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) 
 
 
 <p align="center">
-  <img src="figs/intro.png" alt="framework">
+  <img src="figs/intro.png" alt="intro" width="80%">
 </p>
 
 If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
@@ -29,7 +29,7 @@ For inference, please also install `vllm` (we use version 0.6.6).
 ## Data 📚
 Please find our generated training data and evaluation datasets [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/EkB9OYBHr_tGmGeJ5xxTncgBXFnln9nPP4jmCKNcQSSDIQ?e=oF7b6g).
 
-`data_round0_sft_critic.json` is SFT data and `data_round2_rl_critic.json` is for round 2 RL.
+`data_round0_sft_critic.json` is SFT data and `data_round2_rl_critic.json` contains round 1 & 2 generated data for RL.
 
 The three files in `data/eval` correspond to the datasets used for evaluating the critic.
 
