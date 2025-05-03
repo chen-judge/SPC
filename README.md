@@ -27,7 +27,7 @@ For inference, please also install `vllm` (we use version 0.6.6).
 
 
 ## Data 📚
-Please find our training data and evaluation datasets [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/EkB9OYBHr_tGmGeJ5xxTncgBXFnln9nPP4jmCKNcQSSDIQ?e=oF7b6g).
+Please find our generated training data and evaluation datasets [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/EkB9OYBHr_tGmGeJ5xxTncgBXFnln9nPP4jmCKNcQSSDIQ?e=oF7b6g).
 
 `data_round0_sft_critic.json` is SFT data and `data_round2_rl_critic.json` is for round 2 RL.
 
