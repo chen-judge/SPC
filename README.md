@@ -33,7 +33,7 @@ Please find our generated training data and evaluation datasets [here](https://c
 
 The three files in `data/eval` correspond to the datasets used for evaluating the critic.
 
-## Checkpoints 💼
+## Checkpoints 🤗
 
 We have uploaded the trained [SFT critic model](https://huggingface.co/judge/SPC-Critic-0/tree/main) (round 0) and [RL critic model](https://huggingface.co/judge/SPC-Critic-2/tree/main) (round 2) to Hugging Face!
 
