@@ -2,7 +2,7 @@
 
 **SPC: Evolving Self-Play Critic via Adversarial Games for LLM Reasoning**
 
-The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) [[Project]](https://chen-judge.github.io/SPC/) [[Hugging Face]](https://huggingface.co/judge/SPC-Critic-2/tree/main)
+The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) [[Project]](https://chen-judge.github.io/SPC/) [[Hugging Face]](https://huggingface.co/papers/2504.19162)
 
 **Jiaqi Chen**, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong.
 
