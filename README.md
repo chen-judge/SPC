@@ -6,6 +6,7 @@ The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) 
 
 **Jiaqi Chen**, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong.
 
+Conference on Neural Information Processing Systems (**NeurIPS** 2025)
 
 
 
