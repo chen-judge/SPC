@@ -2,11 +2,9 @@
 
 **SPC: Evolving Self-Play Critic via Adversarial Games for LLM Reasoning**
 
-The official implementation of SPC. [[arXiv]](https://arxiv.org/abs/2504.19162) [[Project]](https://chen-judge.github.io/SPC/) [[Hugging Face]](https://huggingface.co/papers/2504.19162)
+The official implementation of SPC (**NeurIPS** 2025). [[arXiv]](https://arxiv.org/abs/2504.19162) [[Project]](https://chen-judge.github.io/SPC/) [[Hugging Face]](https://huggingface.co/papers/2504.19162)
 
 **Jiaqi Chen**, Bang Zhang, Ruotian Ma, Peisong Wang, Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, Kwan-Yee K. Wong.
-
-Conference on Neural Information Processing Systems (**NeurIPS** 2025)
 
 
 
